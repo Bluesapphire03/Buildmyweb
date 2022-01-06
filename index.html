@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="container ">
+        <nav class="navbar navbar-expand-md  fixed-top navbar-light bg-light"  >
+          <img
+            src="buildlogo.png"
+            class="navbar-brand"
+            style="width: 100px"
+            alt=""
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#toggleMobileMenu"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="#toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ml-auto text-center">
+              <li>
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#register" class="nav-link">Register</a>
+              </li>
+              <li>
+                <a href="#mentors" class="nav-link">Mentors</a>
+              </li>
+              <li>
+                <a href="#participants" class="nav-link">Participants</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+    </header>
+    <section class="carousel">
+      <style>
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+    <body>
+      <a name=home></a>
+      <div id="GFG" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#GFG" data-slide-to="0" class="active"></li>
+          <li data-target="#GFG" data-slide-to="1"></li>
+          <li data-target="#GFG" data-slide-to="2"></li>
+          <li data-target="#GFG" data-slide-to="3"></li>
+        </ul>
+  
+        <div class="carousel-inner mb-20">
+          <div class="carousel-item active">
+            <img src="carousel.png" alt="GFG" width="100%" height="200" style="height: 600px;" />
+          </div>
+  
+  
+          <div class="carousel-item mb-20">
+            <img src="carousel2.png" alt="GFG" width="100%" height="200" style="height: 600px;"  />
+          </div>
+        </div>
+  
+        <a class="carousel-control-prev" href="#GFG" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#GFG" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+  <br>
+    </section>
+    <section class="telegram">
+      <h4 class="text-center">Join us</h4>
+      <p class="text-center">Pygrammers is a community of python enthusiasts with similar idealogies and interest</p>
+      <div class="container h=100">
+        <div class="d-flex flex-row">
+          <div class="align-self-center mx-auto">
+            <a class="btn btn-primary" href="https://t.me/pygrammers_official" role="button">Telegram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section class="form">
+      <a name=register></a>
+      <div class="container  p-3 border border-secondary" width="100%">
+        <form action="#">
+          <h2 class="text-center mt-50">Form:</h2>
+          <div class="form-group text-center">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="fname" id="fname" />
+          </div>
+          <div class="form-group text-center">
+            <label for="name">Mobile Number</label>
+            <input type="text" class="form-control" name="fname" id="fname" />
+          </div>
+  
+          <div class="form-group text-center">
+            <label for="name">Email Id</label>
+            <input type="text" class="form-control" name="fname" id="fname" />
+          </div>
+          <div class="form-group text-center">
+            <label for="name">Company/Institution Name</label>
+            <input type="text" class="form-control" name="fname" id="fname" />
+          </div>
+          <div class="form-group text-center">
+            <p class="text-info">
+              Upload a Short Video or image of handwritten sheet showing your
+              <br />
+              interest in joining Buildmyweb
+            </p>
+            <input type="file" name="filename2" />
+  
+            <select name="sub" class="custom-select mb-3 text-center">
+              <option selected>
+                Have you attended any events by Pygrammers before?!
+              </option>
+              <option value="DS">Yes</option>
+              <option value="Algo">No</option>
+              <input
+                class="btn btn-secondary"
+                type="submit"
+                value="Submit Form"
+              />
+            </select>
+          </div>
+        </form>
+      </div>
+  
+    </section>
+    <br>
+    <section class="mentor">
+      <a name=mentors></a>
+      <h4 class="text-center">Mentors</h4>
+      <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem">
+          <img src="elon.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem">
+          <img src="elon.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem">
+          <img src="elon.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem">
+          <img src="elon.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem">
+          <img src="elon.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem">
+          <img src="elon.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    </section>
+    <br>
+    <Section class="Partici">
+      <a name=participants></a>
+      <h4 class="text-center">Participants</h4>
+      <table class="table table-bordered text-center mr-auto ml-auto" style="width: 70px;">
+        <thead>
+          <tr>
+            <th scope="col">SI.NO</th>
+            <th scope="col">Name</th>
+    
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <tr>
+              <th scope="row">1</th>
+                 <td>Vinil Nair</td>
+            </tr>
+      
+            <th scope="row">2</th>
+                         <td>Adithya Shailesh</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+                         <td>Jibin Babu</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+                         <td>Blessymaria</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+                         <td>Adith KL</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+                         <td>Kevin Joseph</td>
+          </tr>
+    
+    
+    
+        </tbody>
+        </table>
+    
+    
+    </Section>
+    <br>
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3 text-center ml-auto mr-auto">
+            <img src="footer.png" width="300px" alt="" />
+          <hr class="clearfix w-100 d-md-none pb-3" />
+		 </div>
+      </div>
+
+    </footer>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
